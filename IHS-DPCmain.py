@@ -24,20 +24,20 @@ def load_dataset(path):
 # 各数据集完整超参配置
 # 固定开启硬筛选，移除hard_sp参数；max_iter、lam_step全局固定
 dataset_params = {
-    # 小标准数据集
+    
     "iris": {"dc_ratio": 0.03, "init_lam": 0.15},
     "ecoli": {"dc_ratio": 0.028, "init_lam": 0.16},
     "thyroid": {"dc_ratio": 0.022, "init_lam": 0.17},
     "seeds": {"dc_ratio": 0.032, "init_lam": 0.14},
     "zoo": {"dc_ratio": 0.04, "init_lam": 0.12},
     "wine": {"dc_ratio": 0.026, "init_lam": 0.19},
-    # 图像/高维2D降维数据集
+
     "mnist2d": {"dc_ratio": 0.02, "init_lam": 0.2},
     "usps2d": {"dc_ratio": 0.025, "init_lam": 0.18},
     "data_PenDigits2d": {"dc_ratio": 0.023, "init_lam": 0.19},
     "MSRA25": {"dc_ratio": 0.021, "init_lam": 0.21},
     "Palmdata": {"dc_ratio": 0.024, "init_lam": 0.20},
-    # 文本/分类大数据集
+
     "spambase": {"dc_ratio": 0.018, "init_lam": 0.22},
     "msplice": {"dc_ratio": 0.020, "init_lam": 0.21},
 'oliver100': {"dc_ratio": 0.9999, "init_lam": 8}
