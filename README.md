@@ -4,4 +4,5 @@ ARI：RandIndex.m
 NMI：nmi.m  
 ACC：ClusteringAccuracy.m  
 predicted label vector of FDPAN on D31: prelabelv_fdpan_d31.mat   
-predicted label vector of RMDPC on S1: prelabelv_rmdpc_s1.mat   
+predicted label vector of RMDPC on S1: prelabelv_rmdpc_s1.mat     
+predicted label vector of dbscan_dpc on banknote :prelabelv_dbscan_dpc_banknote.mat    
