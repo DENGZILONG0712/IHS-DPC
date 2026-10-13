@@ -1,4 +1,4 @@
-# IHS-DPC
+# IS-DPC
 Iterative  Screening Density Peak Clustering   
 ARI：RandIndex.m  
 NMI：nmi.m  
